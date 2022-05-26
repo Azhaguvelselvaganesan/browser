@@ -13,6 +13,7 @@ public class FireFox {
 		d.findElement(By.id("pass")).sendKeys("12345");
 		Thread.sleep(100);
 		d.findElement(By.xpath("//div[@id=\"u_0_c_K4\"]")).click();
+		d.close();
 	}
 	
 
